@@ -1,0 +1,45 @@
+[Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Enter player name: Enter team name: Enter dorsal: Enter position: [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Enter player id: Enter ratings (comma-separated): ERROR: wrong rating format
+Enter ratings (comma-separated): ERROR: wrong rating
+Enter ratings (comma-separated): [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Id: 1
+Name: Mark Hughes
+Team: Basket Girona
+Dorsal: 8
+Position: Shooting Guard
+Game | Rating
+1 | 0
+2 | 0
+3 | 40
+4 | 35
+[Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: 

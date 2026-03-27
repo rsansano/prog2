@@ -1,0 +1,34 @@
+ERROR: wrong name
+[Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Id: 1
+Name: Brancou Badio
+Team: Valencia Basket
+Dorsal: 2
+Position: Shooting Guard
+
+Id: 2
+Name: Alberto Diaz
+Team: Unicaja Malaga
+Dorsal: 10
+Position: Point Guard
+Game | Rating
+1 | 20
+2 | 10
+3 | -5
+4 | 0
+[Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: 

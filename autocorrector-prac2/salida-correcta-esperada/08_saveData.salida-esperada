@@ -1,0 +1,53 @@
+[Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Enter player name: Enter team name: Enter dorsal: Enter position: [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Enter player name: Enter team name: Enter dorsal: Enter position: [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Enter player id: Enter ratings (comma-separated): [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: [Import/Export]
+1- Import from CSV
+2- Export to CSV
+3- Load data
+4- Save data
+b- Back to main menu
+Option: Enter filename: [Import/Export]
+1- Import from CSV
+2- Export to CSV
+3- Load data
+4- Save data
+b- Back to main menu
+Option: [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: 

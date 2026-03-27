@@ -1,0 +1,114 @@
+Programación 2 - Autocorrector práctica 2
+=========================================
+
+Para pasar el autocorrector, debes copiar la carpeta "autocorrector-prac2"
+ya descomprimida dentro de la carpeta "p2" de tu repositorio local de Git.
+
+Una vez dentro de esa carpeta, debes ejecutar desde el terminal:
+
+./autocorrectorP2p2.sh
+
+Ese fichero buscará tu código fuente ("prac2.cc") en la carpeta "p2". Es decir,
+no hace falta que copies "prac2.cc" dentro de la carpeta "autocorrector-prac2".
+
+El proceso de corrección sigue los siguientes pasos:
+
+1- Se generan y compilan unos programas auxiliares ("mata" y "comparefiles")
+
+2- Se compila la práctica
+
+3- Se ejecutan las pruebas del directorio "pruebas" y se almacenan los
+resultados en el directorio "salida-obtenida". Se compara la salida obtenida con
+la salida correcta (generada con la práctica de los profesores), que se 
+encuentra en el directorio "salida-correcta-esperada".
+
+El autocorrector usa tres programas auxiliares: "mata", para parar la
+práctica en caso de que se cuelgue, y "comparefiles" para comparar dos
+ficheros de texto sin tener en cuenta espacios, guiones ni saltos de linea y
+"cmpBinAgency" para comparar ficheros binarios.
+Los dos primeros programas son generados y compilados por el propio autocorrector. No debes
+tocarlos. El tercero es un ejecutable y NO DEBES BORRARLO.
+
+-----------------------------------------------------------
+
+Si alguna prueba da un error cuando se comprueba la salida, se mostrará un
+mensaje parecido al del siguiente ejemplo:
+
+Prueba 3...
+127c127
+< Option: [Import/export]
+---
+> Option: [Options]
+
+
+Esto significa que el programa ha obtenido un resultado distinto del
+esperado. En este ejemplo, el error se ha producido en la línea 127. La
+primera línea (<) se corresponde con la salida de tu práctica, y la
+segunda (>) con la salida correcta que debería haber producido.
+
+El autocorrector ignora las diferencias en los blancos, pero cuando hay
+un error y se muestran las diferencias entre ambas salidas, también aparecen
+como es lógico las diferencias en espacios en blanco, pero no son
+relevantes; si aparece un mensaje de error, se debe a diferencias en
+otros caracteres que no son espacios en blanco.
+
+-----------------------------------------------------------
+
+NOTA IMPORTANTE: Para que el resultado del autocorrector sea fiable es 
+necesario tener un sistema operativo Linux con valgrind instalado.  En 
+caso de no tener el programa valgrind, puedes instalarlo mediante la 
+siguiente instrucción:
+
+sudo apt-get install valgrind
+
+-----------------------------------------------------------
+
+Cómo añadir pruebas nuevas al autocorrector
+
+¿Piensas que las pruebas del autocorrector son sospechosamente sencillas?
+¿Crees que los profesores guardamos las pruebas difíciles para la corrección
+de la práctica? Efectivamente, tienes razón, las mejores pruebas no son las
+del autocorrector. En este documento te explicamos cómo añadir pruebas
+nuevas al autocorrector, hechas por ti, en unos sencillos pasos:
+
+1) Estudia las pruebas del autocorrector (están en el directorio
+"pruebas") y piensa qué casos no hemos probado.
+
+2) Edita un fichero de texto (p.ej. miprueba01.txt) con los datos que meterías
+por teclado. Por ejemplo (los comentarios no deben aparecer en el fichero,
+son sólo para que veas lo que hace la prueba):
+
+2                 		// 2- Add players
+Sergio Llull   			// Nombre del jugador
+Real Madrid  			// Nombre del equipo
+23             			// Dorsal
+2				// Posición
+3				// 3- Add player rating
+1			   	// Identificador del player
+10,15,-20?-10		      	// Rating formato incorrecto
+10,15,-20,-51	         	// Rating con valor incorrecto
+10,15,-20,-10			// Rating correcto
+1           			// 1- Show players
+6	         		// 6- Import/export
+1				// 1- Import from CSV//
+pruebas/players.csv		// Nombre del archivo CSV (debe existir en 'pruebas') desde donde leer los players 
+b           			// Volvemos al menú principal
+5				// 5- Show ranking
+q				// q- Quit
+
+3) Una vez has escrito la prueba en un fichero y lo has metido en la
+carpeta "pruebas", debes obtener la salida correcta para dicha prueba.
+Para ello debes utilizar el ejecutable de la práctica publicado en el
+Moodle de la asignatura, de esta manera:
+
+./prac2 < pruebas/miprueba01.txt > salida-correcta-esperada/miprueba01.salida-esperada
+
+NOTA: Para este ejemplo, previamente debes haber incluido un fichero
+"players.csv" en la carpeta "pruebas".
+
+4) Ejecuta el autocorrector y comprueba que tu práctica va bien con esa prueba.
+
+5) Repite estos pasos y añade todas las pruebas que puedas al autocorrector.
+Cuantas más pruebas diferentes añadas, menor es la probabilidad de que tu
+práctica falle con el corrector definitivo.
+

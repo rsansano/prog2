@@ -1,0 +1,19 @@
+5
+2
+Facundo Campazzo
+Real Madrid
+7
+3
+2
+Jan Vesely
+Fc Barcelona
+6
+4
+3
+1
+10,50,15,-49
+3
+2
+0,0,40,35
+5
+q

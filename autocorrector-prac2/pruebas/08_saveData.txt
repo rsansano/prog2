@@ -1,0 +1,18 @@
+2
+Brancou Badio
+Valencia Basket
+2
+2
+2
+Alberto Diaz
+Unicaja Malaga
+10
+1
+3
+2
+20,10,-5,0
+6
+4
+salida-obtenida/08_fileSaveData.bin
+b
+q

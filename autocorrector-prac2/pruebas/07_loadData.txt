@@ -1,0 +1,9 @@
+6
+3
+s
+y
+pruebas/fileLoadData.bin
+b
+1
+q
+

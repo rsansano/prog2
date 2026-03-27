@@ -1,0 +1,65 @@
+[Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Enter player name: Enter team name: Enter dorsal: Enter position: [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Enter player name: Enter team name: Enter dorsal: Enter position: [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Id: 1
+Name: Mark Hughes
+Team: Casademont Zaragoza
+Dorsal: 17
+Position: Small Forward
+
+Id: 2
+Name: Henri Drell
+Team: Joventut Badalona
+Dorsal: 0
+Position: Power Forward
+[Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Enter player id: [Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: Id: 2
+Name: Henri Drell
+Team: Joventut Badalona
+Dorsal: 0
+Position: Power Forward
+[Menu]
+1- Show players
+2- Add player
+3- Add player rating
+4- Delete player
+5- Show ranking
+6- Import/export
+q- Quit
+Option: 
